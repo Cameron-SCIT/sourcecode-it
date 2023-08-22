@@ -4,7 +4,17 @@
 }
 
 .main-home {
-    display: grid;
+    display: flex;
+    justify-content: space-around;
     column-gap: 50px;
     row-gap: 50px;
+}
+
+.tb1 {
+    display: flex;
+}
+
+.home-lhs {
+    width: 100%;
+    text-align: center;
 }

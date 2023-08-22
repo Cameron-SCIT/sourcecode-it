@@ -1,6 +1,6 @@
 .footer {
     display: flex;
-    background-color: black;
+    background-color: var(--cbp-purple);
     color: var(--cbp-light-blue);
     justify-content: space-evenly;
 }

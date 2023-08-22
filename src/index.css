@@ -10,9 +10,46 @@
     --cbp-yellow: #defe47;
     --cbp-light-blue: #00b3fe;
     --cbp-dark-blue: #0016ee;
+    --green-var: #1aff00;
 }
 
 
 body {
     margin: 0;
+    background-color: black;
+    color: white;
+}
+
+/*General Default text*/
+.tw-np {
+    color:  #fff;
+    text-shadow: 
+        0 0 7px var(--cbp-purple),
+        0 0 10px var(--cbp-purple),
+        0 0 21px var(--cbp-purple),
+        0 0 42px var(--cbp-purple),
+        0 0 82px var(--cbp-purple),
+        0 0 92px var(--cbp-purple),
+        0 0 102px var(--cbp-purple),
+        0 0 151px var(--cbp-purple);
+}
+
+.tw-ng {
+    color:  #fff;
+    text-shadow: 
+        0 0 7px var(--green-var),
+        0 0 10px var(--green-var),
+        0 0 21px var(--green-var),
+        0 0 42px var(--green-var),
+        0 0 82px var(--green-var),
+        0 0 92px var(--green-var),
+        0 0 102px var(--green-var),
+        0 0 151px var(--green-var); 
+}
+
+.com-img-round {
+    border-radius: 50%;
+    box-shadow: 
+        0 0 10px var(--cbp-pink)
+    ;
 }

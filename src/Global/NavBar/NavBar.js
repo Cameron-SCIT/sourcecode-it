@@ -7,7 +7,7 @@ export default function NavBar({ HomeClick, ServiceClick, ContactClick }) {
   return (
     <header className='header'>
       <div className='img-wrapper'>
-        <img src='/assets/logo.png' className='nav-logo' alt='scit-logo' />
+        <img src='/assets/logo.png' className='nav-logo com-img-round' alt='scit-logo' />
       </div>
       <nav className='main-nav'>
         <div className='link-holder'>
