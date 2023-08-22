@@ -1,9 +1,11 @@
 .banner-wrapper {
     display: flex;
+    top: 0;
     justify-content: center;
     background-color: black;
 }
 
 .banner {
-    width: 90%;
+    width: 100dvw;
+    max-width: 100%;
 }

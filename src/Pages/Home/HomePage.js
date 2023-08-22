@@ -31,14 +31,14 @@ export default function HomePage() {
           <div className="tb1">
             <FlipCard
               src="/assets/Sashin-Avatar-png.png"
-              alt="Duval Logo"
-              title="Duval Coetzer"
+              alt="Sash Logo"
+              title="Sashin Chetty"
               lines={[]}
             />
             <FlipCard
               src="/assets/Angelo-Avatar-png.png"
-              alt="Duval Logo"
-              title="Duval Coetzer"
+              alt="Angelo Logo"
+              title="Leo D. Angelo Mekonnen"
               lines={[]}
             />
           </div>
